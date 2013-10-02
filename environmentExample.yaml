@@ -1,0 +1,7 @@
+---
+account_sid:          #This is the twilio account id
+auth_token:           #This is the twilio generated password/token
+to_phone:             #This is the phone number that is sending the text
+from_phone:           #This is the phone number that is recieving the text
+max_unread_emails:    #This is the ceiling, once it is reached it will send a text
+important_contacts:   #This is the array of all contacts that you want to recieve an instant notification when they email you

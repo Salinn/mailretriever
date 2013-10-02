@@ -1,0 +1,9 @@
+---
+- !ruby/object:Account
+  username:              #This is the users account name before the @ symbol
+  password:              #This is the users email password
+  domain:                #This is the domain that needs to be connected to 
+  inbox:                 #This is the folder that should be read from
+  email_distinction:     #This is the abbreviation at the start of each array that determines which email account it belongs to
+  past_emails:           #This is the array that contains all of the old unread emails
+  unread_total:          #This is the number of unread messages
